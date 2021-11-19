@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+import { Component } from 'react';
+import ReactTooltip from 'react-tooltip';
 import './App.css';
+import Icon from './components/Icon';
+import Name from './components/Name';
+import SocialMedia from './components/SocialMedia';
+import NavBar from './components/NavBar';
+import About from './components/About';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <main className="App">
+        <header className="Header">
+          <Icon image="ma-icon" />
+          <Name />
+          <SocialMedia />
+        </header>
+        <nav className="Nav">
+          <NavBar />
+        </nav>
+        <section>
+          <About />
+        </section>
+        <footer>
+          <Icon image="canada" />
+        </footer>
+        <ReactTooltip />
+      </main>
+    );
+  }  
 }
 
 export default App;
