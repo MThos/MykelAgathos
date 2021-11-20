@@ -9,11 +9,21 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-#about {
+#about-section, #projects-section, 
+#skills-section, #services-section, 
+#setup-section, #contact-section {
   font-size: 1.2rem;
-  margin-top: 60px;
+  margin: 60px 0;
   padding: 0 50px;
   text-align: left;
+}
+
+.active {
+  background: #ec091c !important;
+  border-radius: 5px;
+  color: white !important;
+  text-decoration: none;
+  padding: 5px;
 }
 
 #canada {
@@ -21,7 +31,7 @@ html, body {
   left: 50%;
   margin: 0 auto;
   padding-top: 25px;
-  position: relative;
+  position: absolute;
   transform: translate(-50%, 0);
 }
 
@@ -68,6 +78,10 @@ html, body {
   color: white;
   text-decoration: none;
   padding: 5px;
+}
+
+.nav-link a:active, .nav-link a:focus {
+  outline: none;
 }
 
 #root {

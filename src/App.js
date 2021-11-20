@@ -5,22 +5,33 @@ import Icon from './components/Icon';
 import Name from './components/Name';
 import SocialMedia from './components/SocialMedia';
 import NavBar from './components/NavBar';
-import About from './components/About';
+import Section from './components/Section';
 
 class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      content: "about"
+    }
+  }
+
+  onClick = link => {
+    this.setState({ content: link.target.id });
+  }
+
   render() {
     return (
       <main className="App">
-        <header className="Header">
+        <header>
           <Icon image="ma-icon" />
           <Name />
           <SocialMedia />
         </header>
-        <nav className="Nav">
-          <NavBar />
+        <nav>
+          <NavBar content={this.state.content} onClick={this.onClick} />
         </nav>
         <section>
-          <About />
+          <Section content={this.state.content} />
         </section>
         <footer>
           <Icon image="canada" />
