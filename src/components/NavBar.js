@@ -49,15 +49,6 @@ class NavBar extends Component {
                         )
                     }                    
                 </div>
-                <div className="nav-link">
-                    {
-                        this.props.content === "contact" ? ( 
-                            <a id="contact" href="#contact" className="active" onClick={e => this.props.onClick(e)}>contact</a>
-                        ) : (                            
-                            <a id="contact" href="#contact" onClick={e => this.props.onClick(e)}>contact</a>
-                        )
-                    }                    
-                </div>
             </div>            
         );
     }
