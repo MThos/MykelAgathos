@@ -59,14 +59,14 @@ footer {
 }
 
 #ma-icon img {
-  width: 64px;
+  width: 44px;
   margin-top: 10px;
 }
 
 #name {
   color: black;
   font-family: 'Amatic SC', cursive;
-  font-size: 5.0rem;
+  font-size: 4rem;
   font-weight: 700;
   margin: 10px 0 20px 0;
   letter-spacing: 4px;
@@ -95,6 +95,7 @@ footer {
   background: #ec091c;
   border-radius: 5px;
   color: white;
+  cursor: pointer;
   text-decoration: none;
   padding: 5px;
 }

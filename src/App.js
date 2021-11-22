@@ -11,12 +11,12 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      content: "about"
+      active: "about"
     }
   }
 
   onClick = link => {
-    this.setState({ content: link.target.id });
+    this.setState({ active: link.target.id });
   }
 
   render() {
@@ -25,13 +25,61 @@ class App extends Component {
         <header>
           <Icon image="ma-icon" />
           <Name />
-          <SocialMedia />
+          <div id="social-media">
+            <SocialMedia 
+              link="http://www.instagram.com" 
+              tooltip="@magathos"
+              image="instagram.png" />
+            <SocialMedia 
+              link="http://www.facebook.com" 
+              tooltip="Mykel Agathos"
+              image="facebook.png" />
+            <SocialMedia 
+              link="http://www.twitter.com" 
+              tooltip="#magathos"
+              image="twitter.png" />
+            <SocialMedia 
+              link="https://github.com/MThos" 
+              tooltip="https://github.com/MThos"
+              image="github.png" />
+            <SocialMedia 
+              link="https://www.linkedin.com/in/mykel-agathos/" 
+              tooltip="Mykel Agathos"
+              image="linkedin.png" />
+            <SocialMedia 
+              link="tel:+12263763450" 
+              tooltip="226.376.3450"
+              image="whatsapp.png" />
+            <SocialMedia 
+              link="mailto:mykel.thos@gmail.com" 
+              tooltip="mykel.thos@gmail.com"
+              image="email.png" />
+          </div>
         </header>
-        <nav>
-          <NavBar content={this.state.content} onClick={this.onClick} />
+        <nav id="nav-bar">
+          <NavBar 
+            content="about"
+            active={this.state.active}
+            onClick={this.onClick} />
+          <NavBar 
+            content="projects" 
+            active={this.state.active}
+            onClick={this.onClick} />
+          <NavBar 
+            content="skills" 
+            active={this.state.active}
+            onClick={this.onClick} />
+          <NavBar 
+            content="services" 
+            active={this.state.active}
+            onClick={this.onClick} />
+          <NavBar 
+            content="setup" 
+            active={this.state.active}
+            onClick={this.onClick} />
         </nav>
         <section>
-          <Section content={this.state.content} />
+          <Section content={this.state.active} />
         </section>
         <footer>
           <Icon image="canada" />
