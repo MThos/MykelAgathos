@@ -36,6 +36,10 @@ html, body {
   font-weight: bold;
 }
 
+.bigger-font {
+  font-size: 1.5rem;
+}
+
 #canada img {
   height: 40px;
 }
@@ -48,6 +52,10 @@ html, body {
 
 footer {
   padding: 40px 0 5px 0;
+}
+
+.italic {
+  font-style: italic;
 }
 
 .left {
@@ -63,19 +71,24 @@ footer {
   margin-top: 10px;
 }
 
+.margin-top-bottom {
+  margin: 40px 0;
+}
+
 #name {
   color: black;
   font-family: 'Amatic SC', cursive;
   font-size: 4rem;
   font-weight: 700;
   margin: 10px 0 20px 0;
-  letter-spacing: 4px;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
 
 #nav-bar {
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
 }
 
 .nav-link {

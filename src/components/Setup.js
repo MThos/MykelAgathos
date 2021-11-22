@@ -4,7 +4,6 @@ class Setup extends Component {
     render() {
         return (
             <div id="setup-section">
-                <h3 className="section-header">System Setup</h3>
                 <div className="flex">
                     <div className="column-one">
                         <div className="bold">Macbook Pro 14"</div>

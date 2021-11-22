@@ -4,7 +4,6 @@ class Skills extends Component {
     render() {
         return (
             <div id="skills-section">
-                <h3 className="section-header">Skills</h3>
                 <div className="flex">
                     <div className="column-one">
                         <div className="bold">Languages</div>
@@ -42,7 +41,7 @@ class Skills extends Component {
                         </ul>
                     </div>        
                     <div>
-                        <div className="bold">DevOps</div>
+                        <div className="bold">Server / Cloud</div>
                         <ul>
                             <li>Digital Ocean</li>
                             <li>Amazon AWS</li>
