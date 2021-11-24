@@ -19,7 +19,7 @@ html, body {
 #skills-section, #services-section, 
 #setup-section, #contact-section {
   font-size: 1.2rem;
-  margin: 50px 0 50px 0;
+  margin: 40px 0 50px 0;
   padding: 0 50px;
   text-align: left;
 }
@@ -30,6 +30,10 @@ html, body {
   color: white !important;
   text-decoration: none;
   padding: 5px;
+}
+
+.amatic {
+  font-family: 'Amatic SC', cursive;
 }
 
 .bold {
@@ -66,6 +70,10 @@ footer {
   text-align: left;
 }
 
+li {
+  padding: 5px 0;
+}
+
 #ma-icon img {
   width: 44px;
   margin-top: 10px;
@@ -88,7 +96,7 @@ footer {
 #nav-bar {
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
+  margin-bottom: 15px;
 }
 
 .nav-link {
@@ -117,6 +125,65 @@ footer {
   outline: none;
 }
 
+.project-desc {
+  margin: 20px auto;
+  text-align: left;
+}
+
+.project-image {
+  border: 5px solid black;
+  margin: 10px 0;
+  max-width: 100%;
+  filter: contrast(110%);
+  -webkit-filter: contrast(110%);
+}
+
+.project-git {
+  display: flex;
+  align-items: center;
+}
+
+.project-git a {
+  color: black;
+}
+
+.project-git a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.project-git-icon {
+  width: 28px;
+  padding-right: 5px;
+  filter: brightness(130%);
+  -webkit-filter: brightness(130%);
+}
+
+.project-link {
+  margin-top: 5px;
+}
+
+.project-link a {
+  color: black;
+}
+
+.project-link a:hover {
+  color: red;
+  text-decoration: none;
+}
+
+.project-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.asterick {
+  color: red;
+  vertical-align: middle;
+  padding-left: 2px;
+}
+
 .right {
   float: right;
 }
@@ -138,13 +205,18 @@ section {
   flex-shrink: 0;
 }
 
-.section-header {
-  font-family: 'Share Tech Mono', cursive;
-  font-size: 1.7rem;
-  margin-bottom: 40px;
-  text-align: center;
-  text-decoration: underline;
-  text-transform: uppercase;
+.setup-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.skills-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.sharetech {
+  font-family: 'Share Tech Mono', 'Segoe UI', sans-serif;
 }
 
 #social-media {
@@ -166,6 +238,11 @@ section {
   text-decoration: underline;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 ul {
   list-style: square;
+  margin-top: 5px;
 }
