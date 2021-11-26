@@ -1,5 +1,6 @@
 import { Component } from 'react';
 import ReactTooltip from 'react-tooltip';
+import AnimateStyled from 'animate-styled';
 import './App.css';
 import Icon from './components/Icon';
 import Name from './components/Name';
@@ -25,36 +26,38 @@ class App extends Component {
         <header>
           <Icon image="ma-icon" />
           <Name />
-          <div id="social-media">
-            <SocialMedia 
-              link="http://www.instagram.com" 
-              tooltip="@magathos"
-              image="instagram.png" />
-            <SocialMedia 
-              link="http://www.facebook.com" 
-              tooltip="Mykel Agathos"
-              image="facebook.png" />
-            <SocialMedia 
-              link="http://www.twitter.com" 
-              tooltip="#magathos"
-              image="twitter.png" />
-            <SocialMedia 
-              link="https://github.com/MThos" 
-              tooltip="https://github.com/MThos"
-              image="github.png" />
-            <SocialMedia 
-              link="https://www.linkedin.com/in/mykel-agathos/" 
-              tooltip="Mykel Agathos"
-              image="linkedin.png" />
-            <SocialMedia 
-              link="tel:+12263763450" 
-              tooltip="226.376.3450"
-              image="whatsapp.png" />
-            <SocialMedia 
-              link="mailto:mykel.thos@gmail.com" 
-              tooltip="mykel.thos@gmail.com"
-              image="email.png" />
-          </div>
+          <AnimateStyled name="zoomIn" iterationCount="1" duration="1s">
+            <div id="social-media">
+              <SocialMedia 
+                link="http://www.instagram.com" 
+                tooltip="@magathos"
+                image="instagram.png" />
+              <SocialMedia 
+                link="http://www.facebook.com" 
+                tooltip="Mykel Agathos"
+                image="facebook.png" />
+              <SocialMedia 
+                link="http://www.twitter.com" 
+                tooltip="#magathos"
+                image="twitter.png" />
+              <SocialMedia 
+                link="https://github.com/MThos" 
+                tooltip="https://github.com/MThos"
+                image="github.png" />
+              <SocialMedia 
+                link="https://www.linkedin.com/in/mykel-agathos/" 
+                tooltip="Mykel Agathos"
+                image="linkedin.png" />
+              <SocialMedia 
+                link="tel:+12263763450" 
+                tooltip="226.376.3450"
+                image="whatsapp.png" />
+              <SocialMedia 
+                link="mailto:mykel.thos@gmail.com" 
+                tooltip="mykel.thos@gmail.com"
+                image="email.png" />
+            </div>
+          </AnimateStyled>
         </header>
         <nav id="nav-bar">
           <NavBar 

@@ -15,6 +15,11 @@ html, body {
   min-height: 100vh !important;
 }
 
+.about-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 #about-section, #projects-section, 
 #skills-section, #services-section, 
 #setup-section, #contact-section {
@@ -46,6 +51,15 @@ html, body {
 
 #canada img {
   height: 40px;
+  filter: brightness(140%);
+  -webkit-filter: brightness(140%);
+}
+
+.checkmark {
+  color: mediumseagreen;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-left: 2px;
 }
 
 .flex {
@@ -178,12 +192,6 @@ li {
   text-transform: capitalize;
 }
 
-.asterick {
-  color: red;
-  vertical-align: middle;
-  padding-left: 2px;
-}
-
 .right {
   float: right;
 }
@@ -208,6 +216,14 @@ section {
 .setup-title {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+#signature {
+  text-align: left;
+}
+
+#signature img {
+  height: 100px;
 }
 
 .skills-title {
