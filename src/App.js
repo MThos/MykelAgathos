@@ -30,7 +30,7 @@ class App extends Component {
             <div id="social-media">
               <SocialMedia 
                 link="http://www.instagram.com" 
-                tooltip="@magathos"
+                tooltip="#mykelagathos"
                 image="instagram.png" />
               <SocialMedia 
                 link="http://www.facebook.com" 
@@ -38,7 +38,7 @@ class App extends Component {
                 image="facebook.png" />
               <SocialMedia 
                 link="http://www.twitter.com" 
-                tooltip="#magathos"
+                tooltip="@mykelagathos"
                 image="twitter.png" />
               <SocialMedia 
                 link="https://github.com/MThos" 

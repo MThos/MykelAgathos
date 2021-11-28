@@ -17,7 +17,7 @@ class Skills extends Component {
                         <div className="column-one">
                             <div className="bold">Languages</div>
                             <ul>
-                                <li>JavaScript<span class="checkmark">&#10003;</span></li>
+                                <li>JavaScript</li>
                                 <li>PHP</li>
                                 <li>Python</li>
                                 <li>HTML5</li>
@@ -54,9 +54,9 @@ class Skills extends Component {
                             <div className="bold">Server / Cloud</div>
                             <ul>
                                 <li>Digital Ocean</li>
-                                <li>Amazon AWS</li>
+                                <li>Amazon AWS<span class="checkmark">&#10003;</span></li>
                                 <li>Microsoft Azure<span class="checkmark">&#10003;</span></li>
-                                <li>Heroku<span class="checkmark">&#10003;</span></li>
+                                <li>Heroku</li>
                                 <li>Docker</li>
                                 <li>Apache / Nginx</li>
                                 <li>LAMP</li>

@@ -213,6 +213,11 @@ section {
   flex-shrink: 0;
 }
 
+.services-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .setup-title {
   font-size: 1.5rem;
   font-weight: bold;
