@@ -15,11 +15,6 @@ html, body {
   min-height: 100vh !important;
 }
 
-.about-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
 #about-section, #projects-section, 
 #skills-section, #services-section, 
 #setup-section, #contact-section {
@@ -186,12 +181,6 @@ li {
   text-decoration: none;
 }
 
-.project-title {
-  font-size: 1.5rem;
-  font-weight: 700;
-  text-transform: capitalize;
-}
-
 .right {
   float: right;
 }
@@ -213,12 +202,7 @@ section {
   flex-shrink: 0;
 }
 
-.services-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.setup-title {
+.section-title {
   font-size: 1.5rem;
   font-weight: bold;
 }
@@ -229,11 +213,6 @@ section {
 
 #signature img {
   height: 100px;
-}
-
-.skills-title {
-  font-size: 1.5rem;
-  font-weight: bold;
 }
 
 .sharetech {
@@ -266,4 +245,74 @@ section {
 ul {
   list-style: square;
   margin-top: 5px;
+}
+
+@media screen and (max-width: 800px) {
+  html, body {
+    line-height: 1.5rem;
+  }
+
+  #about-section, #projects-section, 
+  #skills-section, #services-section, 
+  #setup-section, #contact-section {
+    font-size: 1rem;
+    padding: 0 10px;
+    text-align: left;
+  }
+
+  .column-two {
+    margin-top: 20px;
+  }
+
+  .flex {
+    flex-wrap: wrap;
+  }
+
+  footer {
+    padding: 10px 0 5px 0;
+  }
+
+  li {
+    padding: 2px 0;
+  }
+
+  #ma-icon img {
+    width: 64px;
+    margin-bottom: 20px;
+  }
+
+  .margin-top-bottom {
+    margin: 20px 0;
+  }
+
+  #name {
+    display: none;
+    font-size: 3rem;
+    margin: 15px 0 30px 0;
+    letter-spacing: 1px;
+  }
+
+  #nav-bar {
+    margin-bottom: 0;
+  }
+
+  .nav-link {
+    font-size: 1rem;
+    margin-top: 20px;
+    padding: 0 2px;
+  }
+
+  #root {
+    border: none;
+    width: 95%;
+  }
+
+  .section-title {
+    font-size: 1.2rem;
+  }
+
+  .social-icon {
+    width: 30px;
+    padding: 0 4px;
+  }
 }

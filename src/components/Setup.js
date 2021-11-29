@@ -7,7 +7,7 @@ class Setup extends Component {
             <div id="setup-section">
                 <AnimateStyled name="bounceInUp" iterationCount="1" duration="1s">
                     <div>
-                        <div className="setup-title">What setups do I use, you ask?</div>                    
+                        <div className="section-title">What setups do I use, you ask?</div>                    
                         <p>There are two machines I use every day. I have a custom PC that I built myself and I use this for certain development environments such as VB.NET and WAMP setups as the new M1 Macbook's do not currently support Windows. I also game on my PC. The machine I do the most development on is definitely my Macbook Pro. This machine is lightning fast at everything it does because of the new M1 chips. Also, because I am constantly out of the house on the weekends, it allows me to continue to do development wherever I might be.</p>
                         <p>My super-ultrawide monitor is incredible as the screen real estate cannot be matched, and it is honestly hard to put into words how good it is until you start to use one. I would highly recommend anyone who is on the fence about getting one to go into a store and try one out &#8212; you will be hooked!</p>
                     </div>
@@ -56,15 +56,17 @@ class Setup extends Component {
                             </ul>
                         </div>                        
                     </div>
-                    <br/>                    
-                    <div className="bold">Monitor</div>
-                    <ul>
-                        <li>49" Curved Super Ultrawide (Samsung)</li>
-                        <li>5120 x 1440 / Dual QHD / 32:9</li>
-                        <li>120Hz / 1ms / HDR</li>
-                        <li>125% ARGB Color Gamut</li>
-                        <li>Picture by Picture (PBP)</li>
-                    </ul>
+                    <br/>
+                    <div>
+                        <div className="bold">Monitor</div>
+                        <ul>
+                            <li>49" Curved Super Ultrawide (Samsung)</li>
+                            <li>5120 x 1440 / Dual QHD / 32:9</li>
+                            <li>120Hz / 1ms / HDR</li>
+                            <li>125% ARGB Color Gamut</li>
+                            <li>Picture by Picture (PBP)</li>
+                        </ul>
+                    </div>
                 </AnimateStyled>
             </div>
         );

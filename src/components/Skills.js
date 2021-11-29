@@ -7,7 +7,7 @@ class Skills extends Component {
             <div id="skills-section">
                 <AnimateStyled name="bounceInUp" iterationCount="1" duration="1s">
                     <div>
-                        <div className="about-title">
+                        <div className="section-title">
                         WOW! Look at all those skills!</div>
                         <p>I have used and am familiar within many areas of the information technology sector &#8212; not only strictly development. I have acquired some of these skills from before I was high school, some in college, some on the job and some in the last month. I'm always learning, as the field is ever changing and if you lag behind, you will quickly find yourself left behind or playing catch up.</p>
                         <p>Skills marked with a <span class="checkmark">&#10003;</span> are ones I am currently in the process of trying to use daily and master &#8212; not just simply understand how to use it, but the fundamentals behind it as well.</p>

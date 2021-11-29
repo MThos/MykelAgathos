@@ -7,7 +7,7 @@ class Services extends Component {
             <div id="services-section">
                 <AnimateStyled name="bounceInUp" iterationCount="1" duration="1s">
                     <div>
-                        <div className="services-title">I offer a lot of different services!</div>
+                        <div className="section-title">I offer a lot of different services!</div>
                         <p>If something isn't listed or if the area you are looking for doesn't include a specific feature I am sure we can work with you on it &#8212; <span class="bold">please feel free to ask.</span></p>
                         <p>I am willing to work with people to meet their needs and around most budgets &#8212; <span class="bold">big or small projects.</span></p>
                         <br/>
