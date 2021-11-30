@@ -10,13 +10,13 @@ class Skills extends Component {
                         <div className="section-title">
                         WOW! Look at all those skills!</div>
                         <p>I have used and am familiar within many areas of the information technology sector &#8212; not only strictly development. I have acquired some of these skills from before I was high school, some in college, some on the job and some in the last month. I'm always learning, as the field is ever changing and if you lag behind, you will quickly find yourself left behind or playing catch up.</p>
-                        <p>Skills marked with a <span class="checkmark">&#10003;</span> are ones I am currently in the process of trying to use daily and master &#8212; not just simply understand how to use it, but the fundamentals behind it as well.</p>
+                        <p>Skills marked with a <span class="checkmark relative">&#10003;</span> are ones I am currently in the process of trying to use daily and master &#8212; not just simply understand how to use it, but the fundamentals behind it as well.</p>
                     </div>
                     <br/>
-                    <div className="flex">
-                        <div className="column-one">
-                            <div className="bold">Languages</div>
-                            <ul>
+                    <div id="skills-list" className="flex">
+                        <div>
+                            <div className="skill-type-header bold underline">Languages</div>
+                            <ul className="skills-flex">
                                 <li>JavaScript</li>
                                 <li>PHP</li>
                                 <li>Python</li>
@@ -27,9 +27,9 @@ class Skills extends Component {
                                 <li>C#</li>
                             </ul>
                         </div>
-                        <div className="column-two">
-                            <div className="bold">Frameworks</div>
-                            <ul>
+                        <div>
+                            <div className="skill-type-header bold underline">Frameworks</div>
+                            <ul className="skills-flex">
                                 <li>ReactJS<span class="checkmark">&#10003;</span></li>
                                 <li>Laravel</li>
                                 <li>jQuery</li>
@@ -40,9 +40,9 @@ class Skills extends Component {
                                 <li>.NET</li>
                             </ul>
                         </div>
-                        <div className="column-three">
-                            <div className="bold">Databases</div>
-                            <ul>
+                        <div>
+                            <div className="skill-type-header bold underline">Databases</div>
+                            <ul className="skills-flex">
                                 <li>SQL Server</li>
                                 <li>MySQL</li>
                                 <li>MariaDB</li>
@@ -51,11 +51,11 @@ class Skills extends Component {
                             </ul>
                         </div>        
                         <div>
-                            <div className="bold">Server / Cloud</div>
-                            <ul>
+                            <div className="skill-type-header bold underline">Server / Cloud</div>
+                            <ul className="skills-flex">
                                 <li>Digital Ocean</li>
-                                <li>Amazon AWS<span class="checkmark">&#10003;</span></li>
-                                <li>Microsoft Azure<span class="checkmark">&#10003;</span></li>
+                                <li>AWS<span class="checkmark">&#10003;</span></li>
+                                <li>Azure<span class="checkmark">&#10003;</span></li>
                                 <li>Heroku</li>
                                 <li>Docker</li>
                                 <li>Apache / Nginx</li>
@@ -65,15 +65,15 @@ class Skills extends Component {
                             </ul>
                         </div>
                         <div>
-                            <div className="bold">Other</div>
-                            <ul>
+                            <div className="skill-type-header bold underline">Other</div>
+                            <ul className="skills-flex">
                                 <li>Git / Github</li>
                                 <li>Microsoft TFS</li>
                                 <li>SEO</li>
                                 <li>Visual Studio</li>
                                 <li>Unit Testing</li>
                                 <li>Cybersecurity</li>
-                                <li>CCNA Certificate</li>
+                                <li>CCNA</li>
                             </ul>
                         </div>       
                     </div>

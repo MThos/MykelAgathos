@@ -14,7 +14,7 @@ class Services extends Component {
                         <div>
                             <div class="bold">Web Development</div>
                             <ul>
-                                <li>Single-page or Multi-page Applications</li>
+                                <li>Single-page or Multi-page Apps</li>
                                 <li>Proof of Concepts</li>
                                 <li>Overhaul of Existing Site</li>
                                 <li>E-Commerce</li>
@@ -29,9 +29,9 @@ class Services extends Component {
                         <div>
                             <div class="bold">Web Design</div>
                             <ul>
-                                <li>Proof of Concepts - From The Ground Up</li>
+                                <li>Proof of Concepts</li>
                                 <li>Redesign of Existing Site</li>
-                                <li>Design Specific Page For Existing Site</li>
+                                <li>Design Specific Pages</li>
                             </ul>
                         </div>
                         <br/>

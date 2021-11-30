@@ -142,7 +142,7 @@ li {
 .project-image {
   border: 5px solid black;
   margin: 10px 0;
-  max-width: 100%;
+  max-width: 99%;
   filter: contrast(110%);
   -webkit-filter: contrast(110%);
 }
@@ -179,6 +179,10 @@ li {
 .project-link a:hover {
   color: red;
   text-decoration: none;
+}
+
+.relative {
+  position: relative !important;
 }
 
 .right {
@@ -250,6 +254,7 @@ ul {
 @media screen and (max-width: 800px) {
   html, body {
     line-height: 1.5rem;
+    border: 3px solid black;
   }
 
   #about-section, #projects-section, 
@@ -258,6 +263,15 @@ ul {
     font-size: 1rem;
     padding: 0 10px;
     text-align: left;
+  }
+
+  .checkmark {
+    position: absolute;
+    margin-top: -3px;
+  }
+
+  .column-one, .column-two, .column-three {
+    flex-basis: 100%;
   }
 
   .column-two {
@@ -302,6 +316,10 @@ ul {
     padding: 0 2px;
   }
 
+  .project-image {
+    border: 2px solid black;
+  }
+
   #root {
     border: none;
     width: 95%;
@@ -309,6 +327,25 @@ ul {
 
   .section-title {
     font-size: 1.2rem;
+  }
+
+  .skill-type-header {
+    margin-left: 40px;
+  }
+
+  #skills-list {
+    justify-content: center !important;
+  }
+
+  .skills-flex {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    margin: 10px 0 35px 10px;
+  }
+
+  .skills-flex li {
+    flex: 0 0 50%;
   }
 
   .social-icon {
