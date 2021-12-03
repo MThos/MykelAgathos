@@ -5,7 +5,7 @@ class Skills extends Component {
     render() {
         return (
             <div id="skills-section">
-                <AnimateStyled name="bounceInUp" iterationCount="1" duration="1s">
+                <AnimateStyled name="fadeIn" iterationCount="1" duration="1s">
                     <div>
                         <div className="section-title">
                         WOW! Look at all those skills!</div>

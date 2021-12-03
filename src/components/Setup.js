@@ -5,7 +5,7 @@ class Setup extends Component {
     render() {
         return (
             <div id="setup-section">
-                <AnimateStyled name="bounceInUp" iterationCount="1" duration="1s">
+                <AnimateStyled name="fadeIn" iterationCount="1" duration="1s">
                     <div>
                         <div className="section-title">What setups do I use, you ask?</div>                    
                         <p>There are two machines I use every day. I have a custom PC that I built myself and I use this for certain development environments such as VB.NET and WAMP setups as the new M1 Macbook's do not currently support Windows. I also game on my PC. The machine I do the most development on is definitely my Macbook Pro. This machine is lightning fast at everything it does because of the new M1 chips. Also, because I am constantly out of the house on the weekends, it allows me to continue to do development wherever I might be.</p>
@@ -60,7 +60,8 @@ class Setup extends Component {
                     <div>
                         <div className="bold">Monitor</div>
                         <ul>
-                            <li>49" Curved Super Ultrawide (Samsung)</li>
+                            <li>49" Super Ultrawide (Samsung)</li>
+                            <li>Curved (1800R)</li>
                             <li>5120 x 1440 / Dual QHD / 32:9</li>
                             <li>120Hz / 1ms / HDR</li>
                             <li>125% ARGB Color Gamut</li>

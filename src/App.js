@@ -24,9 +24,11 @@ class App extends Component {
     return (
       <main className="App">
         <header>
-          <Icon image="ma-icon" />
+          <AnimateStyled name="zoomIn" iterationCount="1" duration="2s">
+            <Icon image="ma-icon" />
+          </AnimateStyled>
           <Name />
-          <AnimateStyled name="zoomIn" iterationCount="1" duration="1s">
+          <AnimateStyled name="zoomIn" iterationCount="1" duration="2s">
             <div id="social-media">
               <SocialMedia 
                 link="http://www.instagram.com" 

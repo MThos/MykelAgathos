@@ -5,7 +5,7 @@ class Projects extends Component {
     render() {
         return (
             <div id="projects-section">
-                <AnimateStyled name="bounceInUp" iterationCount="1" duration="1s">
+                <AnimateStyled name="fadeIn" iterationCount="1" duration="1s">
                     <div className="project-example">
                         <div className="section-title">
                             League Census
