@@ -21,6 +21,7 @@ const Skills = () => {
               <li>Visual Basic</li>
               <li>C#</li>
               <li>Python</li>
+              <li>Swift</li>
               <li>HTML5</li>
               <li>CSS3</li>
               <li>SCSS</li>
@@ -69,6 +70,7 @@ const Skills = () => {
               <li>TFS</li>
               <li>SEO</li>
               <li>VSCode</li>
+              <li>XCode</li>
               <li>CCNA</li>
             </ul>
           </div>

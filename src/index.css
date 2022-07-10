@@ -152,6 +152,13 @@ li {
   outline: none;
 }
 
+.project-border {
+  display: block;
+  border: 2px solid black;
+  margin: 80px auto;
+  width: 90%;
+}
+
 .project-desc {
   margin: 20px auto;
   text-align: left;
@@ -163,6 +170,10 @@ li {
   max-width: 99%;
   filter: contrast(110%);
   -webkit-filter: contrast(110%);
+}
+
+.project-image-cybrsecure {
+  max-width: 40%;
 }
 
 .project-git {
@@ -381,8 +392,17 @@ ul {
     padding: 0 2px;
   }
 
+  .project-border {
+    border: 2px solid black;
+    margin: 40px auto;
+  }
+
   .project-image {
     border: 2px solid black;
+  }
+
+  .project-image-cybrsecure {
+    max-width: 99%;
   }
 
   #root {
