@@ -1,5 +1,5 @@
 html, body {
-  background: white;
+  background: rgb(245, 242, 242);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -13,11 +13,15 @@ html, body {
   display: flex;
   flex-direction: column;
   min-height: 100vh !important;
+  text-align: center;
 }
 
-#about-section, #projects-section, 
-#skills-section, #services-section, 
-#setup-section, #contact-section {
+#about-section, 
+#projects-section, 
+#skills-section, 
+#services-section, 
+#setup-section, 
+#contact-section {
   font-size: 1.2rem;
   margin: 40px 0 50px 0;
   padding: 0 50px;
@@ -25,11 +29,12 @@ html, body {
 }
 
 .active {
+  border: 3px solid black !important;
   background: #ec091c !important;
   border-radius: 5px;
   color: white !important;
-  text-decoration: none;
   padding: 5px;
+  text-decoration: none;
 }
 
 .amatic {
@@ -55,6 +60,13 @@ html, body {
   font-size: 1.5rem;
   font-weight: bold;
   padding-left: 2px;
+}
+
+.column-two, 
+.column-three, 
+.column-four, 
+.column-five {
+  padding-top: 0 !important;
 }
 
 .flex {
@@ -94,7 +106,7 @@ li {
 
 #name {
   color: black;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Amatic SC', 'Segoe UI', sans-serif;
   font-size: 4rem;
   font-weight: 700;
   margin: 10px 0 20px 0;
@@ -102,10 +114,11 @@ li {
   text-transform: uppercase;
 }
 
-#nav-bar {
+#navbar {
   display: flex;
   justify-content: center;
   margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .nav-link {
@@ -117,12 +130,16 @@ li {
 }
 
 .nav-link a {
+  border: 3px solid black !important;
+  border-radius: 5px;
   color: black;
   padding: 5px;
+  text-decoration: none;
 }
 
 .nav-link a:hover {
-  background: #ec091c;
+  background: black;
+  border: 3px solid black !important;
   border-radius: 5px;
   color: white;
   cursor: pointer;
@@ -130,7 +147,8 @@ li {
   padding: 5px;
 }
 
-.nav-link a:active, .nav-link a:focus {
+.nav-link a:active, 
+.nav-link a:focus {
   outline: none;
 }
 
@@ -148,8 +166,8 @@ li {
 }
 
 .project-git {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .project-git a {
@@ -162,8 +180,8 @@ li {
 }
 
 .project-git-icon {
-  width: 28px;
   padding-right: 5px;
+  width: 28px;
   filter: brightness(130%);
   -webkit-filter: brightness(130%);
 }
@@ -251,16 +269,63 @@ ul {
   margin-top: 5px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 400px) {
+  #about-section, 
+  #projects-section, 
+  #skills-section, 
+  #services-section, 
+  #setup-section, 
+  #contact-section {
+    font-size: 1rem !important;
+  }
+
+  .nav-link a {
+    font-size: 0.9rem !important;
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .nav-link a {
+    font-size: 1.2rem !important;
+  }
+
+  .column-two, 
+  .column-three, 
+  .column-four, 
+  .column-five {
+    padding-top: 20px;
+  }
+
+  .flex {
+    flex-wrap: nowrap !important;
+  }
+
+  #name {
+    display: inline-block !important;
+  }
+
+  .nav-link a {
+    margin: 0 5px;
+  }
+}
+
+@media screen and (max-width: 900px) {
   html, body {
     line-height: 1.5rem;
     border: 3px solid black;
   }
 
-  #about-section, #projects-section, 
-  #skills-section, #services-section, 
-  #setup-section, #contact-section {
-    font-size: 1rem;
+  .App {
+    padding: 0 20px;
+  }
+
+  #about-section, 
+  #projects-section, 
+  #skills-section, 
+  #services-section, 
+  #setup-section, 
+  #contact-section {
+    font-size: 1.1rem;
     padding: 0 10px;
     text-align: left;
   }
@@ -270,12 +335,12 @@ ul {
     margin-top: -3px;
   }
 
-  .column-one, .column-two, .column-three {
+  .column-one, 
+  .column-two, 
+  .column-three, 
+  .column-four, 
+  .column-five {
     flex-basis: 100%;
-  }
-
-  .column-two {
-    margin-top: 20px;
   }
 
   .flex {
@@ -306,7 +371,7 @@ ul {
     letter-spacing: 1px;
   }
 
-  #nav-bar {
+  #navbar {
     margin-bottom: 0;
   }
 
@@ -322,26 +387,16 @@ ul {
 
   #root {
     border: none;
-    width: 95%;
+    width: 100%;
   }
 
   .section-title {
     font-size: 1.2rem;
   }
 
-  .skill-type-header {
-    margin-left: 40px;
-  }
-
-  #skills-list {
-    justify-content: center !important;
-  }
-
   .skills-flex {
     display: flex;
     flex-wrap: wrap;
-    list-style-type: none;
-    margin: 10px 0 35px 10px;
   }
 
   .skills-flex li {
@@ -351,5 +406,16 @@ ul {
   .social-icon {
     width: 30px;
     padding: 0 4px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .App {
+    padding: 0 20px;
+  }
+
+  #root {
+    border: none;
+    width: 100%;
   }
 }

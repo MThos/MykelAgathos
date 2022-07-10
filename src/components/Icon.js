@@ -1,13 +1,11 @@
-import React, {Component} from 'react';
+import React from 'react';
 
-class Icon extends Component {
-    render() {
-        return (
-            <div id={this.props.image}>
-                <img src={"/images/" + this.props.image + ".png"} alt="ma icon" />
-            </div>
-        );
-    }
+const Icon = (props) => {
+  return (
+    <div id={props.image}>
+      <img src={"/images/" + props.image + ".png"} alt="ma icon" />
+    </div>
+  );
 }
 
 export default Icon;
