@@ -9,6 +9,7 @@ import Setup from './components/Setup';
 import Services from './components/Services';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import NotFound from './components/NotFound';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="/skills" element={<Skills />} />
           <Route path="/services" element={<Services />} />
           <Route path="/setup" element={<Setup />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Footer />
         <ReactTooltip />

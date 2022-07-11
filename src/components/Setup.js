@@ -11,7 +11,7 @@ const Setup = () => {
           <p>My super-ultrawide monitor is incredible as the screen real estate cannot be matched, and it is honestly hard to put into words how good it is until you start to use one. I would highly recommend anyone who is on the fence about getting one to go into a store and try one out &#8212; you will be hooked!</p>
         </div>
         <br/>
-        <div className="flex">                    
+        <div className="flex">
           <div className="column-one">
             <div className="bold">Macbook Pro 14"</div>
             <ul>

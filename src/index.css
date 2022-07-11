@@ -21,7 +21,8 @@ html, body {
 #skills-section, 
 #services-section, 
 #setup-section, 
-#contact-section {
+#contact-section,
+#notfound-section {
   font-size: 1.2rem;
   margin: 40px 0 50px 0;
   padding: 0 50px;
@@ -152,6 +153,21 @@ li {
   outline: none;
 }
 
+#notfound-section {
+  margin-top: 55px !important;
+}
+
+#notfound-title {
+  color: red;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+#notfound-description {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
 .project-border {
   display: block;
   border: 2px solid black;
@@ -208,6 +224,10 @@ li {
 .project-link a:hover {
   color: red;
   text-decoration: none;
+}
+
+.red {
+  color: red;
 }
 
 .relative {
@@ -286,7 +306,8 @@ ul {
   #skills-section, 
   #services-section, 
   #setup-section, 
-  #contact-section {
+  #contact-section,
+  #notfound-section {
     font-size: 1rem !important;
   }
 
@@ -335,7 +356,8 @@ ul {
   #skills-section, 
   #services-section, 
   #setup-section, 
-  #contact-section {
+  #contact-section,
+  #notfound-section {
     font-size: 1.1rem;
     padding: 0 10px;
     text-align: left;
@@ -390,6 +412,14 @@ ul {
     font-size: 1rem;
     margin-top: 20px;
     padding: 0 2px;
+  }
+
+  #notfound-title {
+    font-size: 1.8rem;
+  }
+  
+  #notfound-description {
+    font-size: 1.2rem;
   }
 
   .project-border {
