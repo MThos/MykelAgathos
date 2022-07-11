@@ -1,5 +1,5 @@
 import React from 'react';
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const NavBar = () => {
   const location = useLocation();
@@ -8,19 +8,19 @@ const NavBar = () => {
   return (
     <nav id="navbar">
       <div className="nav-link">
-        <a href="/about" id="about" className={active === "/about" || active === "/" ? 'active' : ''}>About</a>
+        <Link to="/about" id="about" className={active === "/about" || active === "/" ? 'active' : ''}>About</Link>
       </div>
       <div className="nav-link">
-        <a href="/projects" id="projects" className={active === "/projects" ? 'active' : ''}>Projects</a>
+        <Link to="/projects" id="projects" className={active === "/projects" ? 'active' : ''}>Projects</Link>
       </div>
       <div className="nav-link">
-        <a href="/skills" id="skills" className={active === "/skills" ? 'active' : ''}>Skills</a>
+        <Link to="/skills" id="skills" className={active === "/skills" ? 'active' : ''}>Skills</Link>
       </div>
       <div className="nav-link">
-        <a href="/services" id="services" className={active === "/services" ? 'active' : ''}>Services</a>
+        <Link to="/services" id="services" className={active === "/services" ? 'active' : ''}>Services</Link>
       </div>
       <div className="nav-link">
-        <a href="/setup" id="setup" className={active === "/setup" ? 'active' : ''}>Setup</a>
+        <Link to="/setup" id="setup" className={active === "/setup" ? 'active' : ''}>Setup</Link>
       </div>
     </nav>
   );
