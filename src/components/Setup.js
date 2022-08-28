@@ -27,31 +27,31 @@ const Setup = () => {
               <li>802.11ax WiFi / Bluetooth 5</li>
               <li>Thunderbolt 4 / USB 4</li>
               <li>70 Watt Battery (10 to 17 Hours)</li>
-              <li>MagSafe 3 Fast Charge (50% in 30m)</li>
+              <li>MagSafe 3 Fast Charge</li>
               <li>14" Display / 3.5 Pounds</li>
-              <li>MacOS 12 / Windows 11 ARM</li>
+              <li>macOS 12.5 / Windows 11 ARM</li>
               <li>Geekbench 5: 1772 / 12562</li>
             </ul>
           </div>
           <div className="column-two">
             <div className="bold">Custom Built PC</div>
             <ul>
-              <li>2020</li>
-              <li>Ryzen 7 3700X / 8C / 3.7GHz (AMD)</li>
-              <li>X570 Aorus Elite WIFI (Gigabyte)</li>
-              <li>64GB RAM / 3000MHz (GSkill)</li>
+              <li>2022</li>
+              <li>Ryzen 5600X / 6C / 3.7GHz (AMD)</li>
+              <li>X570 Rog Strix (ASUS)</li>
+              <li>64GB RAM / 3200MHz (GSkill)</li>
               <li>GeForce RTX 2080 (Gigabyte)</li>
-              <li>850W PSU / 80%+ Gold (Thermaltake)</li>
+              <li>850W PSU / 80%+ Gold (ASUS)</li>
               <li>2x 1TB NVME SSD (Samsung 970) </li>
-              <li>2x 8TB HDD (Western Digital NAS)</li>
-              <li>AIO 360MM CPU Radiator (Thermaltake)</li>
-              <li>View 37 ARGB Case (Thermaltake)</li>
+              <li>2x 8TB HDD (Western Digital)</li>
+              <li>360MM CPU Radiator (Corsair)</li>
+              <li>4000D Airflow (Corsair)</li>
               <li>802.11ac WiFi / Bluetooth 5</li>
               <li>G903 Wireless Mouse (Logitech)</li>
               <li>G915 TKL Keyboard (Logitech)</li>
-              <li>Arctis 7 Headset (Steelseries)</li>
-              <li>Windows 10 / Ubuntu 18</li>
-              <li>Geekbench 5: 1242 / 8702</li>
+              <li>G733 Headset (Logitech)</li>
+              <li>Windows 11 / Ubuntu 18</li>
+              <li>Geekbench 5: 1553 / 8202</li>
             </ul>
           </div>                        
         </div>

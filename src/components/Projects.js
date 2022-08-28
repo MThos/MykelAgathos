@@ -10,28 +10,26 @@ const Projects = () => {
             League Census
           </div>
           <div className="project-link">
-            <a href="https://leaguecensus.com" target="_blank" rel="noreferrer">leaguecensus.com</a>
+            <a href="https://www.leaguecensus.com" target="_blank" rel="noreferrer">https://www.leaguecensus.com</a>
           </div>
           <div className="project-desc">
-            League Census is a Django web application for retrieval of summoner, champion, item and server status information by pulling data from Riot Games API. The application is a work in progress and is built from code I had originally written in PHP and JavaScript many years ago and I am now in the process of converting it to Django. It is constantly being improved and updated as I find the time between other projects and work. Any data is stored in MongoDB and comes directly from the File System flat json files provided by Riot Games Data Dragon website or by calls directly to Riot Games API &#8212; or Redis cache. Caching of data is handled by both Redis and Cloudflare.<br/><br/>
+            League Census is a ReactJS App for retrieval of champion and item information by pulling data from <a href="https://developer.riotgames.com/" target="_blank" rel="noreferrer">Riot Games API</a> as well as through <a href="https://github.com/meraki-analytics/lolstaticdata" target="_blank" rel="noreferrer">Meraki Analytics' LOLStaticData</a>.<br/><br/>
+            The application is a work in progress and is built from code I had originally written in PHP and another version in Python many years ago and am now converting to Javascript. It is constantly being improved and updated. Any data comes directly from the FileSystem flat json files or by calls directly to Riot Games API (or cache). Caching of data is handled by Cloudflare.<br/><br/>
           <div className="project-git">
-            <img className="project-git-icon" src="/images/github.png" alt="Github" />
-            <a href="https://github.com/MThos/lolcensus" target="_blank" rel="noreferrer">Github Repository</a>
+            <img className="project-git-icon" src="/images/compressed/github.webp" alt="Github" />
+            <a href="https://github.com/MThos/lol" target="_blank" rel="noreferrer">Github Repository</a>
           </div>
           <br/>
           <div className="bold ul-header">Technical Specifications:</div>
             <ul>
-              <li>Django</li>
-              <li>Python</li>
-              <li>MongoDB</li>
-              <li>Redis</li>
-              <li>Nginx</li>
-              <li>Gunicorn</li>
-              <li>Digital Ocean &#8212; 1x vCPU / 2GB RAM</li>
+              <li>ReactJS</li>
+              <li>NodeJS</li>
+              <li>Digital Ocean &#8212; (App Platform CDN)</li>
               <li>Cloudflare &#8212; DNS / Firewall/ Caching / SSL</li>
             </ul>
           </div>
-          <img className="project-image" src="/images/leaguecensus.png" alt="League Census" />
+          <img className="project-image" src="/images/compressed/lol_example_1.webp" alt="League Census" />
+          <img className="project-image" src="/images/compressed/lol_example_2.webp" alt="League Census" />
         </div>
         <span className="project-border"></span>
         <div className="project-example">
@@ -44,7 +42,7 @@ const Projects = () => {
           <div className="project-desc">
             A simple but powerful secure password generator. You get the option of password length (10 to 20 characters) and whether you include numbers, symbols, uppercase and/or lowercase letters. Simply tap the lock icon to generate a secure password and then tap to copy the password. Most of the custom code can be found in ViewController.swift<br/><br/>
           <div className="project-git">
-            <img className="project-git-icon" src="/images/github.png" alt="Github" />
+            <img className="project-git-icon" src="/images/compressed/github.webp" alt="Github" />
             <a href="https://github.com/MThos/CybrSecure" target="_blank" rel="noreferrer">Github Repository</a>
           </div>
           <br/>
@@ -55,7 +53,7 @@ const Projects = () => {
               <li>Xcode</li>
             </ul>
           </div>
-          <img className="project-image project-image-cybrsecure" src="/images/cybrsecure.png" alt="CybrSecure" />
+          <img className="project-image project-image-cybrsecure" src="/images/compressed/cybrsecure.webp" alt="CybrSecure" />
         </div>
       </AnimateStyled>
     </div>

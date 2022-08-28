@@ -15,31 +15,31 @@ const Header = () => {
           <SocialMedia 
             link="http://www.instagram.com" 
             tooltip="#mykelagathos"
-            image="instagram.png" />
+            image="instagram.webp" />
           <SocialMedia 
             link="http://www.facebook.com" 
             tooltip="Mykel Agathos"
-            image="facebook.png" />
+            image="facebook.webp" />
           <SocialMedia 
             link="http://www.twitter.com" 
             tooltip="@mykelagathos"
-            image="twitter.png" />
+            image="twitter.webp" />
           <SocialMedia 
             link="https://github.com/MThos" 
             tooltip="https://github.com/MThos"
-            image="github.png" />
+            image="github.webp" />
           <SocialMedia 
             link="https://www.linkedin.com/in/mykel-agathos/" 
             tooltip="Mykel Agathos"
-            image="linkedin.png" />
+            image="linkedin.webp" />
           <SocialMedia 
             link="tel:+12263763450" 
             tooltip="226.376.3450"
-            image="whatsapp.png" />
+            image="whatsapp.webp" />
           <SocialMedia 
             link="mailto:mykel.thos@gmail.com" 
             tooltip="mykel.thos@gmail.com"
-            image="email.png" />
+            image="email.webp" />
         </div>
       </AnimateStyled>
     </header>

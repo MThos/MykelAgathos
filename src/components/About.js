@@ -26,7 +26,7 @@ const About = () => {
           <p>Regards,</p>
         </div>
         <div id="signature">
-          <img src="\images\signature.png" alt="Mykel Agathos signature" />
+          <img src="/images/compressed/signature.webp" alt="Mykel Agathos signature" />
           <br/>
           Mykel Agathos
         </div>      

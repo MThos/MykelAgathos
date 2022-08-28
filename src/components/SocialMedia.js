@@ -13,7 +13,7 @@ const SocialMedia = (props) => {
       data-border="true" 
       data-place="bottom"
       data-background-color="black">
-      <img className="social-icon" src={"/images/" + image} alt={tooltip} />
+      <img className="social-icon" src={"/images/compressed/" + image} alt={tooltip} />
     </a>
   );
 }
