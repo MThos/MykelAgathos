@@ -70,6 +70,39 @@ html, body {
   padding-top: 0 !important;
 }
 
+.fade-in {
+  animation: fadeIn 1s;
+  -webkit-animation: fadeIn 1s;
+}
+
+.fade-in-fast {
+  animation: fadeIn 200ms;
+  -webkit-animation: fadeIn 200ms;
+}
+
+.fade-in-slow {
+  animation: fadeIn 2s;
+  -webkit-animation: fadeIn 2s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .flex {
   display: flex;
   flex-direction: row;
@@ -108,10 +141,10 @@ li {
 #name {
   color: black;
   font-family: 'Amatic SC', 'Segoe UI', sans-serif;
-  font-size: 4rem;
+  font-size: 5rem;
   font-weight: 700;
   margin: 10px 0 20px 0;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
   text-transform: uppercase;
 }
 
@@ -185,6 +218,10 @@ li {
   font-weight: 500;
 }
 
+.project-desc a:hover {
+  color: red;
+}
+
 .project-image {
   border: 6px solid black;
   border-radius: 15px;
@@ -220,6 +257,7 @@ li {
 }
 
 .project-link {
+  font-weight: 500;
   margin-top: 5px;
 }
 
@@ -289,7 +327,7 @@ section {
 #social-media {
   display: flex;
   justify-content: center;
-  gap: 5px;
+  gap: 2px;
 }
 
 .social-icon {
