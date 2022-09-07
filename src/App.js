@@ -14,8 +14,8 @@ import NotFound from './components/NotFound';
 const App = () => {
   return (
     <div className="App">
+      <Header />
       <BrowserRouter>
-        <Header />
         <NavBar />
         <Routes>
           <Route path="/" element={<About />} />
@@ -26,9 +26,9 @@ const App = () => {
           <Route path="/setup" element={<Setup />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
-        <Footer />
-        <ReactTooltip />
-      </BrowserRouter>      
+      </BrowserRouter>
+      <Footer />
+      <ReactTooltip />   
     </div>
   );
 }
