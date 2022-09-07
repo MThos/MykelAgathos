@@ -12,7 +12,7 @@ const Projects = () => {
         </div>
         <div className="project-desc">
           League Census is a ReactJS App for retrieval of champion and item information by pulling data from <a href="https://developer.riotgames.com/" target="_blank" rel="noreferrer">Riot Games API</a> as well as through <a href="https://github.com/meraki-analytics/lolstaticdata" target="_blank" rel="noreferrer">Meraki Analytics' League Static Data</a>.<br/><br/>
-          The application is a work in progress and is built from code I had originally written in PHP and another version in Python many years ago and am now converting to Javascript. It is constantly being improved and updated. Any data comes directly from the FileSystem flat json files or by calls directly to Riot Games API (or cache). Caching of data is handled by Cloudflare.<br/><br/>
+          The application is a work in progress and is built from code I had originally written in PHP and another version in Python many years ago and am now converting to Javascript. It is constantly being improved and updated. Any data comes directly from the FileSystem flat json files or by calls directly to Riot Games API (or cache).<br/><br/>Caching, CDN and DNS is handled by <span className='bold'>Cloudflare</span>.<br/><br/>
         <div className="project-git">
           <img className="project-git-icon" src="/images/compressed/github.webp" alt="Github" />
           <a href="https://github.com/MThos/lol" target="_blank" rel="noreferrer">Github Repository</a>

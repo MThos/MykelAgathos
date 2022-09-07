@@ -5,8 +5,9 @@ const Setup = () => {
     <div id="setup-section" className="fade-in">
       <div>
         <div className="section-title">What setups do I use, you ask?</div>                    
-        <p>There are two machines I use every day. I have a custom PC that I built myself and I use this for certain development environments such as VB.NET and WAMP setups as the new M1 Macbook's do not currently support Windows. I also game on my PC. The machine I do the most development on is definitely my Macbook Pro. This machine is lightning fast at everything it does because of the new M1 chips. Also, because I am constantly out of the house on the weekends, it allows me to continue to do development wherever I might be.</p>
-        <p>My super-ultrawide monitor is incredible as the screen real estate cannot be matched, and it is honestly hard to put into words how good it is until you start to use one. I would highly recommend anyone who is on the fence about getting one to go into a store and try one out &#8212; you will be hooked!</p>
+        <p>There are two machines I use every day. I have a <span className='bold'>custom PC</span> that I built myself and I use this for certain development environments such as .NET WebForms and WAMP setups because the new M1 MacBook Pro that I now use does not support Windows Bootcamp, though I do have Windows 11 ARM running through Parallels.</p>
+        <p>The machine I do the most development on would definitely be my <span className='bold'>MacBook Pro 14"</span> &#8212; it's lightning fast because of the new M1 chips &#8212; is very portable with incredible battery life &#8212; and because I am constantly out of the house on the weekends, it allows me to continue to do development wherever I might find myself.</p>
+        <p>My <span className='bold'>Samsung super-ultrawide monitor</span> is incredible as the screen real estate cannot be overstated. It is honestly hard to put into words how useful the extra space is until you use one. I would highly recommend anyone who is on the fence about getting one to go into a store and try one out &#8212; you will be hooked!</p>
       </div>
       <br/>
       <div className="flex">

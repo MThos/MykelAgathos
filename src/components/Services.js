@@ -25,7 +25,6 @@ const Services = () => {
             <li>Company Portals</li>
           </ul>
         </div>
-        <br/>
         <div className="column-two">
           <div className="bold underline">Database Administration</div>
           <ul className="services-list-ul">
@@ -36,7 +35,6 @@ const Services = () => {
             <li>Security</li>
           </ul>
         </div>
-        <br/>
         <div className="column-three">
           <div className="bold underline">Cloud / Hosting</div>
           <ul className="services-list-ul">
