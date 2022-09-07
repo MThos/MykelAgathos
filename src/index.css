@@ -139,12 +139,13 @@ li {
 }
 
 #name {
-  color: black;
+  color: rgb(214, 33, 33);
   font-family: 'Amatic SC', 'Segoe UI', sans-serif;
-  font-size: 5rem;
+  font-size: 4.4rem;
   font-weight: 700;
   margin: 10px 0 20px 0;
-  letter-spacing: 4px;
+  letter-spacing: 1px;
+  text-shadow: 3px 2px 1px black;
   text-transform: uppercase;
 }
 
@@ -215,7 +216,7 @@ li {
 
 .project-desc a {
   color: black;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .project-desc a:hover {
@@ -431,6 +432,7 @@ ul {
 
   .flex {
     flex-wrap: wrap;
+    gap: 20px;
   }
 
   footer {
@@ -485,7 +487,9 @@ ul {
   }
 
   .project-image-cybrsecure {
-    max-width: 99%;
+    display: block;
+    margin: 40px auto 20px auto;
+    max-width: 60%;
   }
 
   #root {
