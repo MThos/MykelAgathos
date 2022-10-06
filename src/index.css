@@ -29,6 +29,11 @@ html, body {
   text-align: left;
 }
 
+#about-section a {
+  color: #ec091c;
+  font-weight: 700;
+}
+
 .active {
   border: 3px solid black !important;
   background: #ec091c !important;

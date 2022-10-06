@@ -20,6 +20,7 @@ const About = () => {
         <p>For more information about me, please see my LinkedIn at the top of the page, or check my latest projects.</p>
         <p>If you have any questions, services, job offers, or just simply assistance with development in one of the languages I work in &#8212; <span className="bold">please feel free to reach out to me</span> via my contact links at the top of the page.</p>
         <p>I will respond the fastest by LinkedIn or text message.</p>
+        <p>If you would like a copy of my resume you can find it <a href="Agathos_Resume.pdf" target="_blank">here</a></p>
         <br/>
         <p>Regards,</p>
       </div>
