@@ -9,16 +9,16 @@ const Header = () => {
       <div id="name">Mykel Agathos</div>
       <div id="social-media">
         <SocialMedia 
-          link="http://www.instagram.com" 
+          link="http://www.instagram.com/mykelagathos" 
           tooltip="#mykelagathos"
           image="instagram.webp" />
         <SocialMedia 
-          link="http://www.facebook.com" 
+          link="http://www.facebook.com/mykel.agathos" 
           tooltip="Mykel Agathos"
           image="facebook.webp" />
         <SocialMedia 
-          link="http://www.twitter.com" 
-          tooltip="@mykelagathos"
+          link="https://twitter.com/AgathosMykel" 
+          tooltip="@AgathosMykel"
           image="twitter.webp" />
         <SocialMedia 
           link="https://github.com/MThos" 
