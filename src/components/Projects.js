@@ -32,6 +32,29 @@ const Projects = () => {
       <span className="project-border"></span>
       <div className="project-example">
         <div className="section-title">
+          DevDocumentation
+        </div>
+        <div className="project-link">
+        <a href="https://www.devdocumentation.com" target="_blank" rel="noreferrer">https://www.devdocumentation.com</a>
+        </div>
+        <div className="project-desc">
+          A website that contains links to all the major programming languages and framework documentation pages.<br/><br/>
+        <div className="project-git">
+          <img className="project-git-icon" src="/images/compressed/github.webp" alt="Github" />
+          <a href="https://github.com/MThos/devdocumentation" target="_blank" rel="noreferrer">Github Repository</a>
+        </div>
+        <br/>
+        <div className="bold ul-header">Technical Specifications:</div>
+        <ul>
+            <li>ReactJS</li>
+            <li>Digital Ocean &#8212; App Platform</li>
+          </ul>
+        </div>
+        <img className="project-image" src="/images/compressed/DevDocumentation.webp" alt="DevDocumentation" />
+      </div>
+      <span className="project-border"></span>
+      <div className="project-example">
+        <div className="section-title">
           CybrSecure
         </div>
         <div className="project-link">
